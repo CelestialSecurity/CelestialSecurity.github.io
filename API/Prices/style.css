@@ -18,7 +18,7 @@ body{
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border:2px solid #da4357;
+    border:2px solid #00f2fa;
     margin: 5% auto 0 auto;
     text-align: center;
 }
@@ -43,7 +43,7 @@ body{
     line-height: 1;
 }
 .single-price:hover{
-    background: #da4357;
+    background: #00f2fa;
     color: #fff;
     box-shadow: 0 0 15px rgba(0,0,0,1);
     transform: scale(1.1);
@@ -55,7 +55,7 @@ body{
 }
 .single-price a{
     text-decoration: none;
-    background: #da4357;
+    background: #00f2fa;
     color: #fff;
     padding: 10px 60px;
     display: inline-block;
