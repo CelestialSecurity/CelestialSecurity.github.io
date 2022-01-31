@@ -18,7 +18,7 @@ body{
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border:2px solid #da4357;
+    border:2px solid #00f2fa;
     margin: 5% auto 0 auto;
     text-align: center;
 }
@@ -27,36 +27,36 @@ body{
 }
 .single-price h1{
     font-size: 18px;
-    color: #fff;
+    color: #ffffff;
     line-height: 3;
     text-transform: uppercase;
 }
 .price h2{
     font-size: 45px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .deals h4{
     font-size: 14px;
     font-weight: normal;
     text-align: center;
-    color: #fff;
+    color: rgb(250, 255, 0);
     line-height: 1;
 }
 .single-price:hover{
-    background: #da4357;
-    color: #fff;
+    background: #00f2fa;
+    color: rgb(0, 0, 0);
     box-shadow: 0 0 15px rgba(0,0,0,1);
     transform: scale(1.1);
     z-index: 1;
     border-radius: 25px;
 }
 .single-price:hover .price{
-    border-color: #fff;
+    border-color: rgb(0, 0, 0);
 }
 .single-price a{
     text-decoration: none;
-    background: #da4357;
-    color: #fff;
+    background: #00f2fa;
+    color: rgb(0, 0, 0);
     padding: 10px 60px;
     display: inline-block;
     margin: 10% auto;
@@ -65,5 +65,5 @@ body{
 }
 .single-price:hover a{
     background: #262626;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
