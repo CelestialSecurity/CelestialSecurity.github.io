@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: black;
+}
+
+h1 {
+  color: red;
+}
+.cont {
+  text-align: justify;
+  line-height: 1.7;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, rgb(255, 4, 4));
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #30ff00);
+}
+
+section.pricing {
+    background: #000000;
+    background: linear-gradient(to right, #000000, rgb(173, 13, 45));
+  }
+
+  .pricing .card {
+    background: rgba(18,18,18);
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    margin: 20px;
+  }
+
+  .pricing .fa-check {
+    color: lime
+  }
+
+  .pricing .fa-times {
+    color: rgb(255, 0, 0)
+  }
+
+  .pricing .fa-li {
+    color: orange;
+  }
+
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .pricing .card-title .text-muted .text-uppercase .text-center {
+    color: rgb(255, 0, 0)
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    background: crimson;
+    border-color: rgb(250, 17, 0);
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .pricing .fas fa-check:hover {
+        background: orange;
+    }
+
+    .pricing .btn:hover {
+      background-image: linear-gradient(to right, orange , red);
+      border-color: orangered;
+    }
+
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
