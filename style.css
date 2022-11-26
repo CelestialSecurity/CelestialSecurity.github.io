@@ -27,7 +27,7 @@ h1 {
 
 section.pricing {
     background: #000000;
-    background: linear-gradient(to right, #000000, rgb(173, 13, 45));
+    background: linear-gradient(to right, #01acfc, rgb(173, 13, 45));
   }
 
   .pricing .card {
